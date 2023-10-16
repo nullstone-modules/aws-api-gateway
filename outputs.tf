@@ -12,5 +12,5 @@ output "public_urls" {
 }
 
 output "domain_name" {
-  value =
+  value = aws_apigatewayv2_domain_name.this.domain_name
 }
