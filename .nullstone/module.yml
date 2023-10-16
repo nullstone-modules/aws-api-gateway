@@ -1,0 +1,13 @@
+org_name: nullstone
+name: aws-api-gateway
+friendly_name: API Gateway
+description: Creates an API Gateway for routing traffic from a domain to one or more applications.
+category: block
+subcategory: ""
+provider_types:
+    - aws
+platform: ingress
+subplatform: api-gateway
+type: ""
+appCategories: []
+is_public: true
