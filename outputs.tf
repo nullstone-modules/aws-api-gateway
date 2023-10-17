@@ -4,11 +4,7 @@ locals {
 }
 
 output "public_urls" {
-  value = [
-    {
-      url = local.vanity_url
-    }
-  ]
+  value = [local.vanity_url]
 }
 
 output "domain_name" {
