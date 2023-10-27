@@ -10,3 +10,7 @@ output "public_urls" {
 output "domain_name" {
   value = aws_api_gateway_domain_name.this.domain_name
 }
+
+output "endpoint_types" {
+  value: var.endpoint_types
+}

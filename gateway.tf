@@ -3,7 +3,7 @@ resource "aws_api_gateway_domain_name" "this" {
   certificate_arn = aws_acm_certificate_validation.this.certificate_arn
 
   endpoint_configuration {
-    types = ["EDGE"]
+    types = var.endpoint_types
   }
 
   security_policy = "TLS_1_2"
