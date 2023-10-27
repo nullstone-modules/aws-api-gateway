@@ -12,5 +12,5 @@ output "domain_name" {
 }
 
 output "endpoint_types" {
-  value: var.endpoint_types
+  value = var.endpoint_types
 }
